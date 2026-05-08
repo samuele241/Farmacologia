@@ -1481,7 +1481,7 @@
     },
     {
         "id": 139,
-        "domanda": "Peptidi radiomarcati possono essere utilizzati in diagnostica e/o in terapia?",
+        "domanda": "Peptidi radiomarcati possono essere utilizzati:",
         "opzioni": [
             "Sia in diagnostica che in terapia",
             "Solo in terapia, per la loro alta tossicità",
@@ -4261,18 +4261,14 @@
     },
     {
         "id": 397,
-        "domanda": "Qual è l'unico recettore canale fra i recettori 5HT?",
+        "domanda": "Qual è l'unico recettore canale fra i recettori della serotonina?",
         "opzioni": [
-            "5HT1A",
-            "5HT2A",
-            "5HT3",
-            "ATP",
-            "Distrattore_1: Il recettore canale di tipo nicotinico",
-            "risposta_corretta",
-            "Distrattore_2: Il recettore del calcio",
-            "Distrattore_3: Il recettore del sodio"
+            "5-HT1A",
+            "5-HT2A",
+            "5-HT3",
+            "ATP"
         ],
-        "risposta_corretta": ""
+        "risposta_corretta": "5-HT3"
     },
     {
         "id": 398,
@@ -4298,7 +4294,7 @@
     },
     {
         "id": 400,
-        "domanda": "La dopamina è il precursore della noradrenalina.",
+        "domanda": "La dopamina è il precursore diretto di:",
         "opzioni": [
             "noradrenalina",
             "serotonina",
@@ -4361,14 +4357,14 @@
     },
     {
         "id": 406,
-        "domanda": "Il glutammato rilasciato viene ricaptato dai trasportatori specifici della terminazione e dalla glia?",
+        "domanda": "Il glutammato rilasciato nello spazio sinaptico:",
         "opzioni": [
             "Ritorna nel compartimento di origine",
             "Viene escreto attraverso l'urina",
             "Svolge attività neurotrasmettitrice extra sinaptica",
-            "Viene ricattato dai trasportatori specifici della terminazione e dalla glia"
+            "Viene ricaptato dai trasportatori specifici della terminazione e dalla glia"
         ],
-        "risposta_corretta": "Viene ricattato dai trasportatori specifici della terminazione e dalla glia"
+        "risposta_corretta": "Viene ricaptato dai trasportatori specifici della terminazione e dalla glia"
     },
     {
         "id": 407,
@@ -4530,7 +4526,7 @@
     },
     {
         "id": 422,
-        "domanda": "Il sonno indotto dai barbiturici (BDZ) è diverso dal sonno fisiologico perché si riduce la durata del sonno a onde lente e del sonno REM?",
+        "domanda": "Il sonno indotto dai barbiturici (BDZ) è diverso dal sonno fisiologico perché:",
         "opzioni": [
             "Sì, perchè la sostanza agisce direttamente sul sistema nervoso centrale",
             "No, perchè il sonno indotto dai barbiturici non ha alcuna differenza con quello fisiologico",
@@ -4617,7 +4613,7 @@
     },
     {
         "id": 430,
-        "domanda": "Gli effetti avversi delle benzodiazepine (BDZ) sulla respirazione si manifestano in soggetti con BPCO",
+        "domanda": "Gli effetti avversi delle benzodiazepine (BDZ) sulla respirazione(seleziona risposta ERRATA):",
         "opzioni": [
             "Si manifestano in soggetti con BPCO",
             "Non si manifestano in soggetti con BPCO",
@@ -4713,14 +4709,14 @@
     },
     {
         "id": 439,
-        "domanda": "L'indicazione dei Z composti è principalmente per l'insonnia?",
+        "domanda": "L'indicazione dei Z composti è principalmente per:",
         "opzioni": [
             "Ansia da prestazione",
             "Disturbi del movimento",
             "Sindrome premenstruale",
-            "Disfunzione erettile"
+            "Insonnia a breve termine"
         ],
-        "risposta_corretta": "insonnia"
+        "risposta_corretta": "Insonnia a breve termine"
     },
     {
         "id": 440,
@@ -5131,7 +5127,7 @@
     },
     {
         "id": 478,
-        "domanda": "Quale è la percentuale di pazienti trattati con lamotrigina che mostra una riduzione del 50% delle convulsioni in 25% dei casi?",
+        "domanda": "Riguardo l'efficacia della lamotrigina, studi indicano:",
         "opzioni": [
             "Riduzione del 50% nel 25% dei pazienti",
             "Aumento del 20% nel 40% dei pazienti",
@@ -6654,7 +6650,7 @@
     },
     {
         "id": 620,
-        "domanda": "Quali sono i principi attivi contenuti nel farmaco Metformina?",
+        "domanda": "Quali sono i principi attivi contenuti nel farmaco?",
         "opzioni": [
             "Pioglitazone",
             "Sulfonyluree",
@@ -7811,7 +7807,7 @@
     },
     {
         "id": 727,
-        "domanda": "Ca2+ antagonisti come nifedipina impediscono l'ingresso del Ca2+ nella cellula attraverso canali voltaggio-dipendenti",
+        "domanda": "Ca2+ antagonisti come nifedipina impediscono",
         "opzioni": [
             "inibizione della fosfofrattchinasi C (PKC)",
             "blockata dei recettori beta-adrenergici",
@@ -9581,7 +9577,7 @@
     },
     {
         "id": 891,
-        "domanda": "Montelukast è un inibitore dei recettori di leucotrieni",
+        "domanda": "Montelukast è un inibitore dei recettori di",
         "opzioni": [
             "leucotrieni",
             "prostaglandine",
@@ -9914,7 +9910,7 @@
     },
     {
         "id": 922,
-        "domanda": "Tra le indicazioni di infliximab (Ab contro TNFα) possiamo includere tutte le patologie menzionate (morbo di chron, artrite reumatoide, psoriasi)?",
+        "domanda": "Tra le indicazioni di infliximab (Ab contro TNFα) possiamo includere?",
         "opzioni": [
             "tutte le patologie menzionate",
             "esclusivamente il morbo di Crohn e l'artrite reumatoide",
