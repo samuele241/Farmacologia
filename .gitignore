@@ -1,0 +1,8 @@
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+venv/
+quiz_progress.sqlite3
+.streamlit/secrets.toml
