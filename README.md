@@ -9,6 +9,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+Su Windows puoi anche fare doppio clic su `start_windows.bat`: crea il venv se serve, installa le dipendenze e avvia l'app.
+
 ## Rigenerare il dataset
 
 ```bash
