@@ -378,7 +378,7 @@
     },
     {
         "id": 36,
-        "domanda": "I recettori per gli ormoni tiroidei sono recettori intracellulari?",
+        "domanda": "I recettori per gli ormoni tiroidei sono recettori:",
         "opzioni": [
             "Intracellulari",
             "Transmembrana",
@@ -558,10 +558,10 @@
     },
     {
         "id": 53,
-        "domanda": "Qual è il meccanismo di trasporto facilitato?",
+        "domanda": "Il simporto è:",
         "opzioni": [
             "Meccanismo di trasporto facilitato",
-            "Trasporti attivi",
+            "Trasporto attivo",
             "Dipendenza da concentrare",
             "Difetto endoteliale"
         ],
@@ -589,13 +589,13 @@
     },
     {
         "id": 56,
-        "domanda": "La presenza di recettori di riserva può essere ipotizzata osservando che la EC50 è inferiore alla Kd per l'agonista",
+        "domanda": "La presenza di recettori di riserva può essere ipotizzata osservando che:",
         "opzioni": [
             "Il legame degli agonisti con i recettori è indipendente dalla loro affinità",
-            "La presenza di recettori di riserva può essere ipotizzata osservando che la EC50 è inferiore alla Kd per l'agonista",
+            "La EC50 è inferiore alla Kd per l'agonista",
             "I recettori di riserva sono caratterizzati da una bassa selettività"
         ],
-        "risposta_corretta": "La presenza di recettori di riserva può essere ipotizzata osservando che la EC50 è inferiore alla Kd per l'agonista"
+        "risposta_corretta": "La EC50 è inferiore alla Kd per l'agonista"
     },
     {
         "id": 57,
@@ -632,13 +632,13 @@
     },
     {
         "id": 60,
-        "domanda": "Un agonista inverso ha azione opposta a quella dell’agonista quando: bassa concentrazione di ligando endogeno / alta concentrazione di ligando endogeno / presenza di recettori costitutivamente attivi / presenza di recettori di riserva",
+        "domanda": "Un agonista inverso ha azione opposta a quella dell’agonista quando vi è:",
         "opzioni": [
             "alta concentrazione di ligando endogeno",
             "presenza di recettori costitutivamente attivi",
             "presenza di recettori di riserva"
         ],
-        "risposta_corretta": "bassa concentrazione di ligando endogeno"
+        "risposta_corretta": "presenza di recettori costitutivamente attivi"
     },
     {
         "id": 61,
@@ -686,12 +686,12 @@
     },
     {
         "id": 65,
-        "domanda": "Farmaco A è più potente di farmaco B, dunque presenta ED50 più piccoli",
+        "domanda": "Farmaco A è più potente di farmaco B, dunque:",
         "opzioni": [
-            "FARMACOCINETICA",
             "La sua biodisponibilità è maggiore",
             "È inibitore competitivo rispetto a un bersaglio chimico",
-            "Ha una maggiore attività nel metabolismo enzimatico"
+            "Ha una maggiore attività nel metabolismo enzimatico",
+            "presenta ED50 più piccoli"
         ],
         "risposta_corretta": "presenta ED50 più piccoli"
     },
@@ -718,14 +718,14 @@
     },
     {
         "id": 68,
-        "domanda": "Il volume apparente di distribuzione dei farmaci: È inversamente proporzionale alla concentrazione plasmatica del farmaco all'equilibrio di distribuzione?",
+        "domanda": "Il volume apparente di distribuzione dei farmaci:",
         "opzioni": [
             "È direttamente proporzionale",
-            "È indipendente dalla concentrazione plasmatica",
+            "È inversamente proporzionale alla concentrazione plasmatica del farmaco all'equilibrio di distribuzione",
             "È inversamente proporzionale al volume d'uso terapeutico",
             "È proporzionale alla velocità di metabolizzazione"
         ],
-        "risposta_corretta": "È inversamente proporzionale"
+        "risposta_corretta": "È inversamente proporzionale alla concentrazione plasmatica del farmaco all'equilibrio di distribuzione"
     },
     {
         "id": 69,
@@ -1016,7 +1016,7 @@
     },
     {
         "id": 96,
-        "domanda": "Lo sviluppo di tolleranza ad un farmaco: È indice di idiosincrasia al farmaco / Comporta la necessità di interrompere il trattamento / Comporta la necessità di aggiustare la dose ma non necessariamente di interrompere il trattamento / È indice di allergia al farmaco",
+        "domanda": "Lo sviluppo di tolleranza ad un farmaco:",
         "opzioni": [
             "Comporta la necessità di aggiustare la dose ma non necessariamente di interrompere il trattamento",
             "È indice di idiosincrasia al farmaco",
@@ -1027,7 +1027,7 @@
     },
     {
         "id": 97,
-        "domanda": "Il citocromo P450 catalizza le quali reazioni?",
+        "domanda": "Il citocromo P450:",
         "opzioni": [
             "Catalizza reazioni di ossidazione",
             "Non interferisce con il metabolismo dei farmaci",
@@ -1092,17 +1092,17 @@
     },
     {
         "id": 103,
-        "domanda": "La clearance: È inversamente proporzionale al volume di distribuzione / indipendente dal volume di distribuzione / ...",
+        "domanda": "La clearance:",
         "opzioni": [
             "indipendente dal volume di distribuzione",
             "inversamente proporzionale al tempo di passaggio attraverso il rene",
             "direttamente proporzionale alla velocità di filtrazione glomerulare"
         ],
-        "risposta_corretta": "inversamente proporzionale al volume di distribuzione"
+        "risposta_corretta": "indipendente dal volume di distribuzione"
     },
     {
         "id": 104,
-        "domanda": "La somministrazione sublinguale: Viene comunemente usata ma non nei casi di emergenza / non può essere utilizzata per lungo tempo / è indipendente dall’effetto di primo passaggio / non è indipendente dall’effetto di primo passaggio",
+        "domanda": "La somministrazione sublinguale",
         "opzioni": [
             "è indipendente dall’effetto di primo passaggio",
             "viene comunemente usata ma non può essere utilizzata per lungo tempo in alcuni casi specifici",
@@ -1124,7 +1124,7 @@
     },
     {
         "id": 106,
-        "domanda": "L'allergia ai farmaci è una reazione avversa: derivata da precedenti sensibilizzazioni al farmaco",
+        "domanda": "L'allergia ai farmaci è una reazione avversa",
         "opzioni": [
             "Sintesi del metabolita attivo del farmaco attraverso l'enzima CYP3A4",
             "Reazione di ipersensibilità immediata, legata a un aumento delle citochine pro-infiammatorie",
@@ -1351,7 +1351,7 @@
     },
     {
         "id": 127,
-        "domanda": "Come superano le barriere biologiche i MAB: diffusione semplice / diffusione facilitata / pinocitosi / trasporto paracellulare",
+        "domanda": "Come superano le barriere biologiche i MAB",
         "opzioni": [
             "trasporto paracellulare",
             "diffusione facilitata",
@@ -2127,7 +2127,7 @@
     },
     {
         "id": 199,
-        "domanda": "Su quale citocromo agisce la Claritromicina? Induce CYP3A / Induce CYP2D6 / Inibisce CYP3A / Inibisce CYP2D6",
+        "domanda": "Su quale citocromo agisce la Claritromicina",
         "opzioni": [
             "Inibisce CYP2D6",
             "Induce CYP3A",
@@ -2212,7 +2212,7 @@
     },
     {
         "id": 207,
-        "domanda": "Quale tra i seguenti è un enzima in grado di inattivare il cloramfenicolo: deidropeptidasi / beta-lattamasi / acetiltransferasi / esterasi",
+        "domanda": "Quale tra i seguenti è un enzima in grado di inattivare il cloramfenicolo",
         "opzioni": [
             "beta-lattamasi",
             "acetilcolesterasi",
@@ -2223,7 +2223,7 @@
     },
     {
         "id": 208,
-        "domanda": "Quali antibiotici possono accumularsi nei denti in via di sviluppo: monobattami / carbapenemi / cefalosporine / tetracicline",
+        "domanda": "Quali antibiotici possono accumularsi nei denti in via di sviluppo",
         "opzioni": [
             "tetracicline",
             "carbapenemi",
@@ -2234,7 +2234,7 @@
     },
     {
         "id": 209,
-        "domanda": "Quale tra le seguenti affermazioni sugli amminoglicosidi è corretta: sono particolarmente attivi in ambiente anerobico / non posseggono un effetto post-antibiotico / hanno un effetto batterico tempo-dipendente / hanno un assorbimento gastrointestinale molto basso",
+        "domanda": "Quale tra le seguenti affermazioni sugli amminoglicosidi è corretta",
         "opzioni": [
             "hanno un effetto batterico tempo-dipendente",
             "sono particolarmente attivi in ambiente anerobico",
@@ -2256,7 +2256,7 @@
     },
     {
         "id": 211,
-        "domanda": "Quale tra queste molecole ha la maggiore attività antistafilococcica: amoxicillina / oxacillina / penicillina V / acido clavulanico",
+        "domanda": "Quale tra queste molecole ha la maggiore attività antistafilococcica",
         "opzioni": [
             "oxacillina",
             "amoxicillina",
@@ -2617,7 +2617,7 @@
     },
     {
         "id": 244,
-        "domanda": "Quali tra i seguenti farmaci antivirali è un oligonucleotide antisenso: foscarnet / aciclovir / fomivirsen /cidofovir.",
+        "domanda": "Quali tra i seguenti farmaci antivirali è un oligonucleotide antisenso",
         "opzioni": [
             "fomivirsen",
             "aciclovir",
@@ -2758,7 +2758,7 @@
     },
     {
         "id": 257,
-        "domanda": "Tra meccanismi di resistenza a agenti alchilanti: Tutti (aumento concentrazione intracellulare glutatione, compromissione vie apoptotiche, ridotta permeabilità)",
+        "domanda": "Tra meccanismi di resistenza a agenti alchilanti",
         "opzioni": [
             "ridotta attivazione della via MAPK",
             "aumento espressione proteasi di glicosidasi",
@@ -2995,7 +2995,7 @@
     },
     {
         "id": 279,
-        "domanda": "Quale di questi farmaci citossici forma un complesso terziario e frammenta il DNA: Taxani / Alcaloide  / Etoposide / L-aparaginasi",
+        "domanda": "Quale di questi farmaci citossici forma un complesso terziario e frammenta il DNA",
         "opzioni": [
             "Etoposide",
             "Taxani",
@@ -3491,7 +3491,7 @@
     },
     {
         "id": 325,
-        "domanda": "L'adrenalina è il farmaco d'elezione nello shock anafilattico. Quale azione non le è propria: broncocostrizione (aumento della forza di contrazione cardiaca, frequenza cardiaca, Pa)",
+        "domanda": "L'adrenalina è il farmaco d'elezione nello shock anafilattico. Quale azione non le è propria",
         "opzioni": [
             "broncodilatazione",
             "aumento della pressione arteriosa periferica",
@@ -3522,7 +3522,7 @@
     },
     {
         "id": 328,
-        "domanda": "Pralidossima si somministra: nel breve termine per intossicazione da inibitori irreversibili di acetilcolinesterasi",
+        "domanda": "Pralidossima si somministra",
         "opzioni": [
             "per trattamento della malattia di Parkinson",
             "nel caso di overdose di farmaci anticolinergici",
@@ -3672,7 +3672,7 @@
     },
     {
         "id": 342,
-        "domanda": "Il trasportatore vescicolare della noradrenalina: è selettivo per NA (Vere: non consuma E, scambia catecolamine con protoni, ha 12 domini transmembrana)",
+        "domanda": "Il trasportatore vescicolare della noradrenalina",
         "opzioni": [
             "non consuma E",
             "ha un alto affinità per il substrato",
@@ -3737,7 +3737,7 @@
     },
     {
         "id": 348,
-        "domanda": "Quale neurotrasmettitore deriva dalla tirosina: adrenalina, noradrenalina, dopamina (catecolammine)",
+        "domanda": "Quale neurotrasmettitore deriva dalla tirosina",
         "opzioni": [
             "noradrenalina",
             "serotonina",
@@ -3747,7 +3747,7 @@
     },
     {
         "id": 349,
-        "domanda": "Azione dei β2-agonisti: tutte le precedenti (broncodilatatori, vasodilatatori, rilassamento muscolatura uterina)",
+        "domanda": "Azione dei β2-agonisti",
         "opzioni": [
             "broncodilatatori",
             "vasoconstrizione",
@@ -3824,7 +3824,7 @@
     },
     {
         "id": 356,
-        "domanda": "Il recettore GABA-B è: un recettore accoppiato all’adenilato ciclasi",
+        "domanda": "Il recettore GABA-B è",
         "opzioni": [
             "un recettore accoppiato al G-proteine",
             "un recettore accoppiato alla fosfataza C",
@@ -3949,7 +3949,7 @@
     },
     {
         "id": 368,
-        "domanda": "La neostigmina antagonizza: la miosi pupillare indotta dalla luce / il rallentamento cardiaco indotto da stimoli vagali / la paralisi dei muscoli scheletrici indotta da miorilassanti depolarizzanti / la paralisi dei muscoli scheletrici indotta da rilassanti competitivi (non depolarizzanti)",
+        "domanda": "La neostigmina antagonizza",
         "opzioni": [
             "la paralisi dei muscoli scheletrici indotta da rilassanti competitivi (non depolarizzanti)",
             "la miosi pupillare indotta dalla luce",
@@ -4015,7 +4015,7 @@
     },
     {
         "id": 374,
-        "domanda": "Quale delle seguente affermazioni sull’istamina sono esatte? Tutte le risposte sono corrette (è coinvolta nella secrezione di acido gastrico, nella neurotrasmissione, è importante mediatore infiammatorio)",
+        "domanda": "Quale delle seguente affermazioni sull’istamina sono esatte",
         "opzioni": [
             "è coinvolta nella secrezione di acido gastrico",
             "svolge un ruolo nella riduzione dell'infiammazione intestinale",
@@ -4079,7 +4079,7 @@
     },
     {
         "id": 380,
-        "domanda": "Quale catecolamina agisce dando vasodilatazione muscolare, vasocostrizione cutanea, aumento forza di contrazione cardiaca: adrenalina/noradrenalina",
+        "domanda": "Quale catecolamina agisce dando vasodilatazione muscolare, vasocostrizione cutanea, aumento forza di contrazione cardiaca",
         "opzioni": [
             "Adrenalina",
             "Noradrenalina",
@@ -4415,7 +4415,7 @@
     },
     {
         "id": 411,
-        "domanda": "Quale, tra gli enzimi seguenti, partecipa alla formazione dell’acetilcolina nell’organismo: acetilcolinesterasi; O-acetiltransferasi; DOPA decarbossilasi; COMT",
+        "domanda": "Quale, tra gli enzimi seguenti, partecipa alla formazione dell’acetilcolina nell’organismo",
         "opzioni": [
             "O-acetiltransferasi",
             "Acidificatore di acido citrico",
@@ -4436,7 +4436,7 @@
     },
     {
         "id": 413,
-        "domanda": "A scopo anticinetosico la scopalamina va somministrata: per via orale 2h prima del viaggio / per via transdermica 2h prima del viaggio / per via orale al bisogno / per via transdermica al bisogno",
+        "domanda": "A scopo anticinetosico la scopalamina va somministrata",
         "opzioni": [
             "per via orale 2h prima del viaggio",
             "per via transdermica 12h prima del viaggio",
@@ -4509,7 +4509,7 @@
     },
     {
         "id": 420,
-        "domanda": "Effetto avverso post-somministrazione di flumazenil: crisi epilettiche, convulsioni, aritmie (0.3 mg/Kg ripetuti fino a 10 mg)",
+        "domanda": "Effetto avverso post-somministrazione di flumazenil",
         "opzioni": [
             "ipertensione",
             "tolleranza benzodiazepinica",
@@ -4659,7 +4659,7 @@
     },
     {
         "id": 434,
-        "domanda": "Benzodiazepine negli anziani: aumentata emivita ed effetto",
+        "domanda": "Benzodiazepine negli anziani",
         "opzioni": [
             "Aumento della concentrazione plasmatica",
             "Dipendenza da benzodiazepine con bassa dose",
@@ -4768,7 +4768,7 @@
     },
     {
         "id": 444,
-        "domanda": "Nell'anziano: non aumentano né l'emivita né l'effetto delle benzodiazepine / aumenta l'emivita ma non l'effetto delle benzodiazepine / aumentano sia l'emivita che l'effetto delle benzodiazepine / aumenta l'effetto ma non l'emivita delle benzodiazepine  ANTIPSICOTICI",
+        "domanda": "Nell'anziano",
         "opzioni": [
             "non aumentano né l'emivita né l'effetto",
             "aumenta l'emivita ma non l'effetto",
@@ -5121,7 +5121,7 @@
     },
     {
         "id": 477,
-        "domanda": "L'acido valproico agisce: tutte le indicazioni sono corrette (inibendo l'enzima GABA-transaminasi, inibendo i canali di membrana permeabili agli ioni Na+, bloccando i canali T del Ca2+)?",
+        "domanda": "L'acido valproico agisce",
         "opzioni": [
             "Inibendo solo l'enzima GABA-transaminasi",
             "Bloccando tutti i tipi di canali ionici senza eccezioni",
@@ -5272,7 +5272,7 @@
     },
     {
         "id": 491,
-        "domanda": "Farmaci alternativi e associabili al litio per il trattamento del disturbo bipolare: antidepressivi come la paroxetina",
+        "domanda": "Farmaci alternativi e associabili al litio per il trattamento del disturbo bipolare",
         "opzioni": [
             "Mirtazapina",
             "Aripiprazolo",
@@ -5995,7 +5995,7 @@
     },
     {
         "id": 558,
-        "domanda": "Che tipo di lesione neuronale dà l'eroina: nessuna, non provoca alcun danno cellulare",
+        "domanda": "Che tipo di lesione neuronale dà l'eroina",
         "opzioni": [
             "Nessuna lesione",
             "Lesione per ossidazione",
@@ -6078,7 +6078,7 @@
     },
     {
         "id": 566,
-        "domanda": "La neurotrasmissione peptidergica: non avviene in modo attività dipendente",
+        "domanda": "La neurotrasmissione peptidergica",
         "opzioni": [
             "Sì, la neurotrasmissione peptidergica avviene in modo indipendente dall'attività",
             "No, la neurotrasmissione peptidergica è esclusivamente sintetizzata a livello del sistema nervoso centrale",
@@ -6151,7 +6151,7 @@
     },
     {
         "id": 573,
-        "domanda": "Quale di questi effetti descrive meglio l’escrezione sistemica di etanolo: metabolismo di primo passaggio / eliminazione di primo ordine / eliminazione di ordine zero / distribuzione",
+        "domanda": "Quale di questi effetti descrive meglio l’escrezione sistemica di etanolo",
         "opzioni": [
             "eliminazione di primo ordine",
             "metabolismo di primo passaggio",
@@ -6290,7 +6290,7 @@
     },
     {
         "id": 586,
-        "domanda": "Affinità del ferro alla desferoxamina rispetto ad Hb e transferrina: più affine di transferrina, meno di Hb",
+        "domanda": "Affinità del ferro alla desferoxamina rispetto ad Hb e transferrina",
         "opzioni": [
             "Meno affine di Hb e di transferrina",
             "Più affine di Hb e di transferrina",
@@ -6676,7 +6676,7 @@
     },
     {
         "id": 622,
-        "domanda": "Quando è opportuno somministrare N-cisteina in intossicazione da paracetamolo: prima dei segni di insufficienza epatica entro 8 h a 140 mg/kg/os e poi 70 mg/Kg/ogni4h/per 3 giorni",
+        "domanda": "Quando è opportuno somministrare N-cisteina in intossicazione da paracetamolo",
         "opzioni": [
             "Prima dei sintomi fisici, con dosi standard",
             "Entro 24 ore dalla diagnosi, con somministrazione continua",
@@ -6889,7 +6889,7 @@
     },
     {
         "id": 642,
-        "domanda": "I FANS sono: nefrotossici / ototossici / tossici a livello osseo / neurotossici",
+        "domanda": "I FANS sono",
         "opzioni": [
             "nefrotossici",
             "sono metabolizzati principalmente nel fegato e possono causare danni epatici",
@@ -6932,7 +6932,7 @@
     },
     {
         "id": 646,
-        "domanda": "Cosa si usa nel sovradosaggio di paracetamolo? N-acetil-cisteina o carbone attivo",
+        "domanda": "Cosa si usa nel sovradosaggio di paracetamolo",
         "opzioni": [
             "Carbone attivo",
             "N-acetil-cisteina",
@@ -7181,7 +7181,7 @@
     },
     {
         "id": 669,
-        "domanda": "Quale farmaco mostra maggiore selettività per il recettore dei glucocorticoidi: βmetasone e desametasone",
+        "domanda": "Quale farmaco mostra maggiore selettività per il recettore dei glucocorticoidi",
         "opzioni": [
             "βmetasone",
             "Desametasone",
@@ -7410,7 +7410,7 @@
     },
     {
         "id": 690,
-        "domanda": "I diuretici risparmiatori di potassio: bloccano o riducono la sintesi di un canale del sodio nel tubulo collettore",
+        "domanda": "I diuretici risparmiatori di potassio",
         "opzioni": [
             "Bloccano la sintesi di un canale del calcio nel tubulo distale del rene",
             "Riducono l'espressione di un canale del potassio nel tubulo prossimale del rene",
@@ -7593,7 +7593,7 @@
     },
     {
         "id": 707,
-        "domanda": "Uno dei principali effetti dell'angiotensina II consiste: nella vasocostrizione",
+        "domanda": "Uno dei principali effetti dell'angiotensina II consiste",
         "opzioni": [
             "vasodilatazione",
             "stimolo della produzione di insulina",
@@ -7657,7 +7657,7 @@
     },
     {
         "id": 713,
-        "domanda": "Quale tra i seguenti sartani mostra la emivita più lunga: telmisartan (20 ore)",
+        "domanda": "Quale tra i seguenti sartani mostra la emivita più lunga",
         "opzioni": [
             "telmisartan",
             "candesartan",
@@ -7745,7 +7745,7 @@
     },
     {
         "id": 721,
-        "domanda": "Lø utilizzo di ACE-inibitori porta a un forte accumulo nel plasma di: Renina / Angiotensina I / Angiotensinogeno / ​​...",
+        "domanda": "Lø utilizzo di ACE-inibitori porta a un forte accumulo nel plasma di",
         "opzioni": [
             "Angiotensinogeno",
             "Vasopressina",
@@ -8068,7 +8068,7 @@
     },
     {
         "id": 751,
-        "domanda": "Quale farmaco non può essere somministrato in gravidanza: warfarin / insulina / epparina non frazionata / nessuno dei tre",
+        "domanda": "Quale farmaco non può essere somministrato in gravidanza",
         "opzioni": [
             "nessuno dei tre",
             "warfarin",
@@ -8604,7 +8604,7 @@
     },
     {
         "id": 801,
-        "domanda": "Inibitori della calcineurina: nefrotossici o ormoni sessuali?",
+        "domanda": "Inibitori della calcineurina",
         "opzioni": [
             "Nefrotossici",
             "Ormoni sessuali",
@@ -8648,7 +8648,7 @@
     },
     {
         "id": 805,
-        "domanda": "Quale tra i seguenti farmaci NON sono indicati per il trattamento del carcinoma prostatico: agonisti del recettore degli androgeni (indicati invece antagonisti gnrh)",
+        "domanda": "Quale tra i seguenti farmaci NON sono indicati per il trattamento del carcinoma prostatico",
         "opzioni": [
             "Antagonisti GnRH",
             "Agonisti del recettore degli androgeni",
@@ -8680,7 +8680,7 @@
     },
     {
         "id": 808,
-        "domanda": "L'effetto delle associazioni estro-progestiniche può essere ridotto dall'assunzione di: tutti i precedenti farmaci (carbamazepina, iperico, penicilline e cefalosporine)?",
+        "domanda": "L'effetto delle associazioni estro-progestiniche può essere ridotto dall'assunzione di",
         "opzioni": [
             "tutti i precedenti farmaci",
             "gli anticonvulsivanti",
@@ -9127,7 +9127,7 @@
     },
     {
         "id": 849,
-        "domanda": "Riguardo alla nitroglicerina una sola delle seguenti affermazioni è corretta: a basse dosi determina una dilatazione del distretto venoso più pronunciata rispetto a quella arteriolare?",
+        "domanda": "Riguardo alla nitroglicerina una sola delle seguenti affermazioni è corretta",
         "opzioni": [
             "La nitroglicerina agisce principalmente sulle arterie della coronaria sinistra",
             "La nitroglicerina agisce come vasodilatatore nei vasi sanguigni di piccola dimensione",
@@ -9516,7 +9516,7 @@
     },
     {
         "id": 885,
-        "domanda": "Quale tra i seguenti β2-agonisti NON fa parte della classe degli short acting (SABA): formoterolo (LABA)",
+        "domanda": "Quale tra i seguenti β2-agonisti NON fa parte della classe degli short acting (SABA)",
         "opzioni": [
             "formoterolo",
             "salbutamolo",
@@ -9559,7 +9559,7 @@
     },
     {
         "id": 889,
-        "domanda": "Il principio attivo: è un antagonista dell'acetilcolina utilizzato nell'asma?",
+        "domanda": "Il principio attivo",
         "opzioni": [
             "Sì, è un antagonista dell'acetilcolina e utilizzato per trattare l'asma",
             "No, è un agonista muscarinico del sistema nervoso autonomo",
@@ -10085,7 +10085,7 @@
     },
     {
         "id": 938,
-        "domanda": "La dose efficace 50: è la dose che produce l'effetto terapeutico nel 50% degli individui",
+        "domanda": "La dose efficace 50",
         "opzioni": [
             "Dose massimale tollerata da un paziente",
             "Quantità di farmaco necessaria per ottenere il 90% dell'efficacia desiderata",
@@ -10171,7 +10171,7 @@
     },
     {
         "id": 946,
-        "domanda": "Se tutti gli effetti (terapeutici e collaterali) di un farmaco si attenuano dopo trattamento prolungato: Si è sviluppata tolleranza farmaco metabolica",
+        "domanda": "Se tutti gli effetti (terapeutici e collaterali) di un farmaco si attenuano dopo trattamento prolungato",
         "opzioni": [
             "Sì, si è sviluppata tolleranza farmaco metabolica",
             "No, il farmaco ha perso la sua efficacia per via della sua instabilità chimica",
@@ -10235,7 +10235,7 @@
     },
     {
         "id": 952,
-        "domanda": "La tolleranza ad un farmaco: si manifesta clinicamente con una sindrome di astinenza?",
+        "domanda": "La tolleranza ad un farmaco",
         "opzioni": [
             "Tolleranza",
             "Depressione",
