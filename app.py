@@ -479,6 +479,12 @@ def render_header(stats: dict) -> None:
             font-size: 0.8rem;
             margin-right: 0.35rem;
         }
+        .metric-card {
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(16, 42, 67, 0.10);
+            border-radius: 18px;
+            padding: 0.8rem 0.9rem;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -496,6 +502,41 @@ def render_header(stats: dict) -> None:
     )
 
 
+def format_elapsed_time(total_seconds: int) -> str:
+    minutes, seconds = divmod(max(0, total_seconds), 60)
+    hours, minutes = divmod(minutes, 60)
+
+    if hours:
+        return f"{hours}h {minutes}m"
+    if minutes:
+        return f"{minutes}m {seconds}s"
+    return f"{seconds}s"
+
+
+def ensure_session_started_at() -> None:
+    if "started_at" not in st.session_state:
+        st.session_state.started_at = datetime.now(timezone.utc)
+
+
+@st.fragment(run_every="60s")
+def render_session_timer() -> None:
+    started_at = st.session_state.get("started_at")
+    if started_at is None:
+        return
+
+    elapsed_seconds = int((datetime.now(timezone.utc) - started_at).total_seconds())
+    st.markdown(
+        f"""
+        <div class="metric-card">
+            <div style="font-size:0.78rem;color:#486581;margin-bottom:0.2rem;">Tempo sul sito</div>
+            <div style="font-size:1.35rem;font-weight:700;color:#102a43;">{format_elapsed_time(elapsed_seconds)}</div>
+            <div style="font-size:0.8rem;color:#627d98;">Si aggiorna ogni minuto</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def main() -> None:
     st.set_page_config(page_title="Dashboard Farmacologia", page_icon="🧪", layout="wide")
 
@@ -503,6 +544,7 @@ def main() -> None:
         st.error(f"Dataset non trovato: {DATASET_PATH}")
         st.stop()
 
+    ensure_session_started_at()
     dataset = load_dataset()
     connection = get_connection()
     initialize_database(connection)
@@ -562,23 +604,6 @@ def main() -> None:
                     set_next_question(connection)
                     st.rerun()
 
-        with st.expander("Storico sessione recente", expanded=False):
-            recent = connection.execute(
-                """
-                SELECT a.created_at, a.question_id, q.domanda, a.selected_option, a.is_correct
-                FROM attempts a
-                JOIN questions q ON q.question_id = a.question_id
-                ORDER BY a.attempt_id DESC
-                LIMIT 10
-                """
-            ).fetchall()
-            if recent:
-                for item in recent:
-                    status = "corretta" if item["is_correct"] else "sbagliata"
-                    st.write(f"{item['created_at']} · Q{item['question_id']} · {status} · {item['selected_option']}")
-            else:
-                st.caption("Nessun tentativo registrato ancora.")
-
     with right_col:
         st.subheader("Performance")
         metric_cols = st.columns(2)
@@ -588,6 +613,14 @@ def main() -> None:
         metric_cols_2 = st.columns(2)
         metric_cols_2[0].metric("Risposte corrette", str(stats["total_correct"]))
         metric_cols_2[1].metric("Risposte errate", str(stats["total_wrong"]))
+
+        completion_percent = (stats["seen_questions"] / stats["total_questions"] * 100) if stats["total_questions"] else 0.0
+        metric_cols_3 = st.columns(2)
+        metric_cols_3[0].metric("Completamento", f"{completion_percent:.1f}%")
+        metric_cols_3[1].metric("Domande viste", f"{stats['seen_questions']}/{stats['total_questions']}")
+
+        st.markdown("<div style='margin-top:0.5rem;'></div>", unsafe_allow_html=True)
+        render_session_timer()
 
         st.markdown("---")
         st.subheader("Filtro esposizioni")
